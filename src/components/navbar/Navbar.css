@@ -1,0 +1,41 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #d1411e;
+    color: #fff;
+    padding: 15px 7%;
+    flex-direction: row;
+
+}
+.callbutton{
+    background: #fff;
+border-radius: 50%;
+
+}
+.tele{
+    color:transparent;
+width:32px;
+height:32px;
+padding: 7px;
+}
+.Navbar_texts{
+    padding: 7px;
+}
+.logo{
+    width: 140px;
+    cursor: pointer;
+}
+ul{
+  flex:1;
+  list-style: none;
+  text-align: center;
+
+}
+ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-size:18px;
+    cursor: pointer;
+}
