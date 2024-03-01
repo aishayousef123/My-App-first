@@ -15,13 +15,13 @@ function Slider() {
   return (
     <Swiper
       // install Swiper modules
-      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      modules={[Navigation, A11y]}
            spaceBetween={50}
            //effect="fade"
       slidesPerView={1}
       navigation
-      pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}
+      // pagination={{ clickable: true }}
+      // scrollbar={{ draggable: true }}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
     >
