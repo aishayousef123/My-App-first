@@ -10,3 +10,26 @@
   background: #d1411e;
 
 }
+
+
+.blue-slide,
+.yellow-slide,
+.green-slide {
+  height: 100vh;
+  font-size: 36px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+/* .blue-slide {
+  background-color: blue;
+}
+
+.yellow-slide {
+  background-color: yellow;
+}
+
+.green-slide {
+  background-color: green;
+} */
