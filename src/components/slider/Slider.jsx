@@ -25,9 +25,9 @@ function Slider() {
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
     >
-       <SwiperSlide> <img src={featured} alt='' className='featured' style={{width:"100%"}}/></SwiperSlide>
-    <SwiperSlide><img src={featured2} alt='' className='featured2' style={{width:"100%"}}/></SwiperSlide>
-    <SwiperSlide><img src={featured3} alt='' className='featured3' style={{width:"100%"}}/></SwiperSlide>
+       <SwiperSlide> <img src={featured} alt='' className='featured' style={{width:"75%"}}/></SwiperSlide>
+    <SwiperSlide><img src={featured2} alt='' className='featured2' style={{width:"75%"}}/></SwiperSlide>
+    <SwiperSlide><img src={featured3} alt='' className='featured3' style={{width:"75%"}}/></SwiperSlide>
   </Swiper>
   )
 }
